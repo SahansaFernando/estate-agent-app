@@ -1,94 +1,185 @@
 {
-	"properties": [
-        {
-            "id":"prop1",
-			"type":"House",
-            "bedrooms":3,
-			"price":750000,
-			"tenure":"Freehold",
-			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
-			"location":"Petts Wood Road, Petts Wood, Orpington BR5",
-			"picture":"images/prop1pic1small.jpg",
-			"url":"properties/prop1.html",
-            "dateAdded": "2022-10-12"
+  "properties": [
+    {
+      "id": "prop1",
+      "type": "House",
+      "bedrooms": 3,
+      "price": 750000,
+      "tenure": "Freehold",
+      "description": "Attractive Three-Bedroom Semi-Detached Family Home in a Prime Location\nThis charming three-bedroom semi-detached family home is ideally situated just 0.5 miles from Petts Wood Station, offering fast and convenient train services into Central London. Perfectly positioned for families, the property is within easy walking distance of local shops, highly regarded schools, and regular bus routes, ensuring everyday convenience.\nSet in a peaceful residential area, the home also benefits from proximity to beautiful National Trust woodland, providing a scenic backdrop and opportunities for outdoor leisure and family walks. Inside, the property offers a bright and spacious living environment, with well-proportioned rooms designed for comfortable family living.\nAdditional features include:\nThree well-sized bedrooms providing flexible accommodation for families\nInviting living spaces ideal for relaxing or entertaining\notential to further personalise or extend, subject to planning\nPrivate garden perfect for outdoor dining or children’s play\nThis property combines excellent transport links, local amenities, and access to green spaces, making it an ideal choice for families seeking both convenience and a high quality of life.",
+      "location": "Petts Wood Road, Petts Wood, Orpington BR5",
 
-        },
-		{
-            "id":"prop2",
-			"type":"Flat",
-            "bedrooms":2,
-			"price":399995,
-			"tenure":"Freehold",
-			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
-			"location":"Crofton Road Orpington BR6",
-			"picture":"images/prop2pic1small.jpg",
-			"url":"properties/prop2.html",
-            "dateAdded": "2022-09-14"
+      "picture": "/images/house1/house1.jpg",
 
-        },
-        {  
-            "id": "prop3",
-            "type": "House",
-            "bedrooms": 4,
-            "price": 925000,
-            "tenure": "Freehold",
-            "description": "Spacious four bedroom detached house offering generous living accommodation across two floors. Features include a modern fitted kitchen, large reception rooms, private garden and off-street parking. Ideally located close to schools and transport links.",
-            "location": "High Street, Bromley BR1",
-            "picture": "images/prop3pic1small.jpg",
-            "url": "properties/prop3.html",
-            "dateAdded": "2023-01-10"
-        },
-        {
-            "id": "prop4",
-            "type": "Flat",
-            "bedrooms": 1,
-            "price": 275000,
-            "tenure": "Leasehold",
-            "description": "Well-presented one bedroom flat situated on the second floor of a modern development. The property benefits from an open-plan kitchen and living area, a contemporary bathroom, and excellent transport connections into central London.",
-            "location": "Camden Road, London NW1",
-            "picture": "images/prop4pic1small.jpg",
-            "url": "properties/prop4.html",
-            "dateAdded": "2023-03-05"
-        },
-        {
-            "id": "prop5",
-            "type": "House",
-            "bedrooms": 5,
-            "price": 1200000,
-            "tenure": "Freehold",
-            "description": "Impressive five bedroom family home arranged over three floors. The property offers multiple reception rooms, a high-spec kitchen, landscaped garden and excellent storage throughout. Located in a sought-after residential area.",
-            "location": "Greenwich Park Road, London SE10",
-            "picture": "images/prop5pic1small.jpg",
-            "url": "properties/prop5.html",
-            "dateAdded": "2023-06-18"
-        },
-        {
-            "id": "prop6",
-            "type": "Flat",
-            "bedrooms": 3,
-            "price": 650000,
-            "tenure": "Leasehold",
-            "description": "Large three bedroom apartment located within a modern city development. Features include a spacious living area, fitted kitchen, balcony, and concierge service. Ideal for professionals or families seeking city living.",
-            "location": "Old Street, London EC1",
-            "picture": "images/prop6pic1small.jpg",
-            "url": "properties/prop6.html",
-            "dateAdded": "2024-02-01"
-        },
-        {
-            "id": "prop7",
-            "type": "House",
-            "bedrooms": 2,
-            "price": 480000,
-            "tenure": "Freehold",
-            "description": "Charming two bedroom terraced house featuring a bright reception room, modern kitchen, private rear garden and excellent transport links. Perfect for first-time buyers or small families.",
-            "location": "Lewisham High Road, London SE13",
-            "picture": "images/prop7pic1small.jpg",
-            "url": "properties/prop7.html",
-            "dateAdded": "2024-08-20"
-        
-        }
-    
+      "images": {
+        "livingRoom": "/images/house1/house1livingroom.jpg",
+        "bedroom": "/images/house1/house1bedroom.jpg",
+        "kitchen": "/images/house1/house1kitchen.jpg",
+        "entrance": "/images/house1/house1entrance.jpg",
+        "washroom": "/images/house1/house1washroom.jpg",
+        "garden": "/images/house1/house1garden.jpg"
+      },
 
-        
-        
-]}
+      "floorPlan": "/images/house1/house1floorplan.jpg",
+      "lat": 51.389,
+      "lng": 0.103,
+      "dateAdded": "10-12-2022"
+    },
+
+    {
+      "id": "prop2",
+      "type": "Flat",
+      "bedrooms": 2,
+      "price": 399995,
+      "tenure": "Freehold",
+      "description": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat...",
+      "location": "Crofton Road Orpington BR6",
+
+      "picture": "/images/flat1/flat1.jpg",
+
+      "images": {
+        "livingRoom": "/images/flat1/flat1livingroom.jpg",
+        "bedroom": "/images/flat1/flat1bedroom.jpg",
+        "kitchen": "/images/flat1/flat1kitchen.jpg",
+        "entrance": "/images/flat1/flat1entrance.jpg",
+        "washroom": "/images/flat1/flat1washroom.jpg",
+        "balcony": "/images/flat1/flat1balcony.jpg"
+      },
+
+      "floorPlan": "/images/flat1/flat1floorplan.jpg",
+      "lat": 51.373,
+      "lng": 0.089,
+      "dateAdded": "02-09-2023"
+    },
+
+    {
+      "id": "prop3",
+      "type": "House",
+      "bedrooms": 4,
+      "price": 925000,
+      "tenure": "Freehold",
+      "description": "Spacious four bedroom detached house offering generous living accommodation across two floors...",
+      "location": "High Street, Bromley BR1",
+
+      "picture": "/images/house2/house2.jpg",
+
+      "images": {
+        "livingRoom": "/images/house2/house2livingroom.jpg",
+        "bedroom": "/images/house2/house2bedroom.jpg",
+        "kitchen": "/images/house2/house2kitchen.jpg",
+        "entrance": "/images/house2/house2entrance.jpg",
+        "washroom": "/images/house2/house2washroom.jpg",
+        "garden": "/images/house2/house2garden.jpg"
+      },
+
+      "floorPlan": "/images/house2/house2floorplan.jpg",
+      "lat": 51.406,
+      "lng": 0.015,
+      "dateAdded": "01-10-2024"
+    },
+
+    {
+      "id": "prop4",
+      "type": "Flat",
+      "bedrooms": 1,
+      "price": 275000,
+      "tenure": "Leasehold",
+      "description": "Well-presented one bedroom flat situated on the second floor of a modern development...",
+      "location": "Camden Road, London NW1",
+
+      "picture": "/images/flat2/flat2.jpg",
+
+      "images": {
+        "livingRoom": "/images/flat2/flat2livingroom.jpg",
+        "bedroom": "/images/flat2/flat2bedroom.jpg",
+        "kitchen": "/images/flat2/flat2kitchen.jpg",
+        "entrance": "/images/flat2/flat2entrance.jpg",
+        "washroom": "/images/flat2/flat2washroom.jpg",
+        "balcony": "/images/flat2/flat2balcony.jpg"
+      },
+
+      "floorPlan": "/images/flat2/flat2floorplan.jpg",
+      "lat": 51.542,
+      "lng": -0.142,
+      "dateAdded": "2023-03-05"
+    },
+
+    {
+      "id": "prop5",
+      "type": "House",
+      "bedrooms": 5,
+      "price": 1200000,
+      "tenure": "Freehold",
+      "description": "Impressive five bedroom family home arranged over three floors...",
+      "location": "Greenwich Park Road, London SE10",
+
+      "picture": "/images/house3/house3.jpg",
+
+      "images": {
+        "livingRoom": "/images/house3/house3livingroom.jpg",
+        "bedroom": "/images/house3/house3bedroom.jpg",
+        "kitchen": "/images/house3/house3kitchen.jpg",
+        "entrance": "/images/house3/house3entrance.jpg",
+        "washroom": "/images/house3/house3washroom.jpg",
+        "garden": "/images/house3/house3garden.jpg"
+      },
+
+      "floorPlan": "/images/house3/house3floorplan.jpg",
+      "lat": 51.477,
+      "lng": -0.0005,
+      "dateAdded": "2023-06-18"
+    },
+
+    {
+      "id": "prop6",
+      "type": "Flat",
+      "bedrooms": 3,
+      "price": 650000,
+      "tenure": "Leasehold",
+      "description": "Large three bedroom apartment located within a modern city development...",
+      "location": "Old Street, London EC1",
+
+      "picture": "/images/flat3/flat3.jpg",
+
+      "images": {
+        "livingRoom": "/images/flat3/flat3livingroom.jpg",
+        "bedroom": "/images/flat3/flat3bedroom.jpg",
+        "kitchen": "/images/flat3/flat3kitchen.jpg",
+        "entrance": "/images/flat3/flat3entrance.jpg",
+        "washroom": "/images/flat3/flat3washroom.jpg",
+        "balcony": "/images/flat3/flat3balcony.jpg"
+      },
+
+      "floorPlan": "/images/flat3/flat3floorplan.jpg",
+      "lat": 51.526,
+      "lng": -0.087,
+      "dateAdded": "2024-02-01"
+    },
+
+    {
+      "id": "prop7",
+      "type": "House",
+      "bedrooms": 2,
+      "price": 480000,
+      "tenure": "Freehold",
+      "description": "Charming two bedroom terraced house featuring a bright reception room...",
+      "location": "Lewisham High Road, London SE13",
+
+      "picture": "/images/house4/house4.jpg",
+
+      "images": {
+        "livingRoom": "/images/house4/house4livingroom.jpg",
+        "bedroom": "/images/house4/house4bedroom.jpg",
+        "kitchen": "/images/house4/house4kitchen.jpg",
+        "entrance": "/images/house4/house4entrance.jpg",
+        "washroom": "/images/house4/house4washroom.jpg",
+        "garden": "/images/house4/house4garden.jpg"
+      },
+
+      "floorPlan": "/images/house4/house4floorplan.jpg",
+      "lat": 51.456,
+      "lng": -0.014,
+      "dateAdded": "2024-08-20"
+    }
+  ]
+}
