@@ -9,7 +9,10 @@
       "description": "Attractive Three-Bedroom Semi-Detached Family Home in a Prime Location\nThis charming three-bedroom semi-detached family home is ideally situated just 0.5 miles from Petts Wood Station, offering fast and convenient train services into Central London. Perfectly positioned for families, the property is within easy walking distance of local shops, highly regarded schools, and regular bus routes, ensuring everyday convenience.\nSet in a peaceful residential area, the home also benefits from proximity to beautiful National Trust woodland, providing a scenic backdrop and opportunities for outdoor leisure and family walks. Inside, the property offers a bright and spacious living environment, with well-proportioned rooms designed for comfortable family living.\nAdditional features include:\nThree well-sized bedrooms providing flexible accommodation for families\nInviting living spaces ideal for relaxing or entertaining\notential to further personalise or extend, subject to planning\nPrivate garden perfect for outdoor dining or children’s play\nThis property combines excellent transport links, local amenities, and access to green spaces, making it an ideal choice for families seeking both convenience and a high quality of life.",
       "location": "Petts Wood Road, Petts Wood, Orpington BR5",
 
-      "picture": "/images/house1/house1.jpg",
+      "heroImages": [
+                "/images/house1/house1.jpg",
+                "/images/house1/house1.2.jpg"
+            ],
 
       "images": {
         "livingRoom": "/images/house1/house1livingroom.jpg",
@@ -23,7 +26,7 @@
       "floorPlan": "/images/house1/house1floorplan.jpg",
       "lat": 51.389,
       "lng": 0.103,
-      "dateAdded": "10-12-2022"
+      "dateAdded": "10/12/2025"
     },
 
     {
@@ -32,10 +35,13 @@
       "bedrooms": 2,
       "price": 399995,
       "tenure": "Freehold",
-      "description": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat...",
+      "description": "Presented in excellent decorative order throughout, this stylish and well-proportioned two double bedroom, two bathroom garden flat offers modern living with the added benefit of private outdoor space. Finished to a high standard, the property features a bright and contemporary interior, making it ideal for first-time buyers, downsizers, or investors alike.\nThe accommodation comprises a spacious open-plan living and dining area, perfect for both everyday living and entertaining, complemented by a modern fitted kitchen with quality appliances and ample storage. Both double bedrooms are generously sized, with the principal bedroom benefiting from a well-appointed en-suite shower room, while a sleek family bathroom serves the second bedroom and guests.\nExternally, the flat enjoys access to a private garden, providing a peaceful retreat ideal for outdoor dining, relaxation, or gardening. Further benefits include modern fixtures and fittings throughout, excellent storage options, and a layout that maximises natural light.\nThis attractive garden flat combines comfort, style, and practicality, offering a superb opportunity to enjoy contemporary living with the rare advantage of private outdoor space.",
       "location": "Crofton Road Orpington BR6",
 
-      "picture": "/images/flat1/flat1.jpg",
+      "heroImages": [
+                "/images/flat1/flat1.jpeg",
+                "/images/flat1/flat1.2.jpg"
+            ],
 
       "images": {
         "livingRoom": "/images/flat1/flat1livingroom.jpg",
@@ -49,7 +55,7 @@
       "floorPlan": "/images/flat1/flat1floorplan.jpg",
       "lat": 51.373,
       "lng": 0.089,
-      "dateAdded": "02-09-2023"
+      "dateAdded": "02/09/2025"
     },
 
     {
@@ -58,10 +64,14 @@
       "bedrooms": 4,
       "price": 925000,
       "tenure": "Freehold",
-      "description": "Spacious four bedroom detached house offering generous living accommodation across two floors...",
+      "description": "Spacious four-bedroom detached family home offering generous and well-balanced living accommodation arranged over two floors. This attractive property is ideal for growing families, providing versatile living space designed for both everyday comfort and entertaining.\nThe ground floor features multiple reception areas, allowing for flexible use as formal living, dining, or family rooms, alongside a well-proportioned kitchen with ample storage and workspace. Large windows throughout create a bright and airy feel, enhancing the sense of space.\nUpstairs, the property boasts four well-sized bedrooms, including a spacious principal bedroom, all thoughtfully laid out to accommodate family living. The home benefits from ample storage, well-appointed bathrooms, and a layout that offers both privacy and practicality.\nExternally, the house enjoys private outdoor space, ideal for relaxing, entertaining, or family activities, along with off-street parking and potential for further enhancement, subject to planning permission.\nThis impressive detached home combines space, flexibility, and comfort, making it an excellent choice for those seeking a substantial family property.",
       "location": "High Street, Bromley BR1",
 
-      "picture": "/images/house2/house2.jpg",
+      "heroImages": [
+                "/images/house2/house2.jpg",
+                "/images/house2/house2.2.jpeg"
+            ],
+
 
       "images": {
         "livingRoom": "/images/house2/house2livingroom.jpg",
@@ -75,7 +85,7 @@
       "floorPlan": "/images/house2/house2floorplan.jpg",
       "lat": 51.406,
       "lng": 0.015,
-      "dateAdded": "01-10-2024"
+      "dateAdded": "01/10/2025"
     },
 
     {
@@ -84,10 +94,14 @@
       "bedrooms": 1,
       "price": 275000,
       "tenure": "Leasehold",
-      "description": "Well-presented one bedroom flat situated on the second floor of a modern development...",
+      "description": "Well-presented one-bedroom flat situated on the second floor of a modern and well-maintained development, offering comfortable and contemporary living in a convenient setting. The property is finished to a good standard throughout and benefits from a bright, well-planned layout.\nThe accommodation comprises a spacious open-plan living and dining area, complemented by a modern fitted kitchen with ample storage and integrated appliances. The generous double bedroom provides a peaceful retreat with space for wardrobes, while the flat is served by a stylish, well-appointed bathroom.\nFurther benefits include secure entry, well-kept communal areas, and excellent natural light throughout. The property is ideally suited to first-time buyers, professionals, or investors, offering an attractive combination of modern living and low maintenance.\nConveniently located close to local amenities, transport links, and green spaces, this appealing flat provides easy access to everything needed for everyday living.",
       "location": "Camden Road, London NW1",
 
-      "picture": "/images/flat2/flat2.jpg",
+      
+      "heroImages": [
+                "/images/flat2/flat2.jpg",
+                "/images/flat2/flat2.2.jpg"
+            ],
 
       "images": {
         "livingRoom": "/images/flat2/flat2livingroom.jpg",
@@ -101,7 +115,7 @@
       "floorPlan": "/images/flat2/flat2floorplan.jpg",
       "lat": 51.542,
       "lng": -0.142,
-      "dateAdded": "2023-03-05"
+      "dateAdded": "12/12/2025"
     },
 
     {
@@ -110,10 +124,14 @@
       "bedrooms": 5,
       "price": 1200000,
       "tenure": "Freehold",
-      "description": "Impressive five bedroom family home arranged over three floors...",
+      "description": "Impressive five-bedroom family home arranged over three floors, offering spacious and versatile living accommodation ideal for modern family life. Finished to a high standard throughout, the property combines generous proportions with a practical and well-considered layout.\nThe ground floor provides excellent living and entertaining space, including a bright and welcoming reception room and a well-appointed kitchen/dining area with ample storage and work surfaces. Large windows and thoughtful design ensure a light and airy feel across all levels of the home.\nAcross the upper floors are five well-proportioned bedrooms, providing flexible accommodation for growing families, home working, or guest rooms. The principal bedroom benefits from en-suite facilities, while additional bathrooms are conveniently located to serve the remaining bedrooms.\nExternally, the property enjoys private outdoor space, ideal for relaxing or entertaining, along with off-street parking and further storage.\nThis impressive home offers a superb blend of space, style, and practicality, making it an excellent choice for families seeking a substantial and adaptable property.",
       "location": "Greenwich Park Road, London SE10",
 
-      "picture": "/images/house3/house3.jpg",
+      "heroImages": [
+                "/images/house3/house3.jpg",
+                "/images/house3/house3.2.jpg"
+            ],
+
 
       "images": {
         "livingRoom": "/images/house3/house3livingroom.jpg",
@@ -127,7 +145,7 @@
       "floorPlan": "/images/house3/house3floorplan.jpg",
       "lat": 51.477,
       "lng": -0.0005,
-      "dateAdded": "2023-06-18"
+      "dateAdded": "06/10/2025"
     },
 
     {
@@ -136,10 +154,13 @@
       "bedrooms": 3,
       "price": 650000,
       "tenure": "Leasehold",
-      "description": "Large three bedroom apartment located within a modern city development...",
+      "description": "Large three-bedroom apartment located within a modern city development, offering spacious and contemporary living ideal for professionals, families, or investors. The property is well-presented throughout and benefits from a thoughtfully designed layout that maximises both space and natural light.\nThe accommodation comprises a generous open-plan living and dining area, perfect for entertaining, alongside a modern fitted kitchen with integrated appliances and ample storage. All three bedrooms are well proportioned, with the principal bedroom benefiting from en-suite facilities, while a stylish family bathroom serves the remaining bedrooms.\nAdditional features include secure entry, lift access, and well-maintained communal areas, providing comfort and peace of mind. The apartment also benefits from excellent storage solutions and a contemporary finish throughout.\nIdeally positioned close to city amenities, transport links, shops, restaurants, and leisure facilities, this impressive apartment offers the perfect balance of urban convenience and modern living.",
       "location": "Old Street, London EC1",
 
-      "picture": "/images/flat3/flat3.jpg",
+      "heroImages": [
+                "/images/flat3/flat3.jpg",
+                "/images/flat3/flat3.2.jpg"
+            ],
 
       "images": {
         "livingRoom": "/images/flat3/flat3livingroom.jpg",
@@ -153,7 +174,7 @@
       "floorPlan": "/images/flat3/flat3floorplan.jpg",
       "lat": 51.526,
       "lng": -0.087,
-      "dateAdded": "2024-02-01"
+      "dateAdded": "07/13/2025"
     },
 
     {
@@ -162,10 +183,14 @@
       "bedrooms": 2,
       "price": 480000,
       "tenure": "Freehold",
-      "description": "Charming two bedroom terraced house featuring a bright reception room...",
+      "description": "Charming two-bedroom terraced house featuring a bright and welcoming reception room, offering comfortable and well-proportioned accommodation ideal for first-time buyers, young families, or downsizers. The property blends character with practicality, creating a warm and inviting living environment.\nThe ground floor comprises a light-filled reception room, perfect for relaxing or entertaining, leading through to a well-appointed kitchen with ample storage and workspace. Upstairs, there are two generously sized bedrooms, both offering comfortable accommodation, along with a neatly presented family bathroom.\nExternally, the property benefits from private outdoor space, ideal for outdoor dining or relaxation. Additional features include good storage, tasteful décor throughout, and potential to further personalise, subject to the necessary consents.\nConveniently located close to local amenities, transport links, and green spaces, this delightful terraced home offers an excellent balance of comfort, character, and convenience.",
       "location": "Lewisham High Road, London SE13",
 
-      "picture": "/images/house4/house4.jpg",
+      "heroImages": [
+                "/images/house4/house4.jpg",
+                "/images/house4/house4.2.jpeg"
+            ],
+
 
       "images": {
         "livingRoom": "/images/house4/house4livingroom.jpg",
@@ -179,7 +204,7 @@
       "floorPlan": "/images/house4/house4floorplan.jpg",
       "lat": 51.456,
       "lng": -0.014,
-      "dateAdded": "2024-08-20"
+      "dateAdded": "04/04/2025"
     }
   ]
 }

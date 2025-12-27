@@ -4,29 +4,57 @@
   margin: 0;
   padding: 0;
 }
-
 /* PAGE */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color:#fffdf3;
+  background-color:#ffffff;
   color: #151414;
 }
-
 /* HEADINGS */
 h1, h2 {
   margin: 20px;
   text-align: center;
 }
 
-
-
-/* BUTTONS */
+/* Global baseline for all buttons */
 button {
   margin-top: 12px;
-  padding: 8px 12px;
   cursor: pointer;
+  border: none;
+  border-radius: 3px;
 }
-
+/* Search button */
+.search-bar .btn-search {
+  background-color: #d3e7b3;   /* green */
+  color: #070707;
+  font-weight: bolder;
+  font-size: 18px;             /* bigger text */
+  padding: 14px 24px;          /* bigger size */
+}
+.search-bar .btn-search:hover {
+  background-color: #59d888;
+}
+/* Reset button */
+.search-bar .btn-reset {
+  background-color: #FDAB9E;   /* coral */
+  color: #000000;
+  font-weight: bolder;
+  font-size: 18px;             /* bigger text */
+  padding: 14px 24px;          /* bigger size */
+}
+.search-bar .btn-reset:hover {
+  background-color: #ff3d3d;
+}
+/* Button container */
+.search-buttons {
+  grid-column: span 4;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.search-buttons button {
+  min-width: 340px;            /* wider buttons */
+}
 /* RESULTS GRID */
 .results-grid {
   display: grid;
@@ -34,7 +62,6 @@ button {
   gap: 20px;
   padding: 20px;
 }
-
 /* PROPERTY CARD */
 .property-card {
   display: flex;
@@ -45,20 +72,43 @@ button {
   padding: 12px;
   align-items: center;
 }
-
 .property-image {
   width: 150px;
   height: 110px;
   object-fit: cover;
   border-radius: 4px;
 }
-
 .property-info h3 {
   margin: 0;
 }
-
 .property-info p {
   margin: 4px 0;
 }
-
-
+/* =======================
+   FOOTER BAR
+======================= */
+.footer-bar {
+  background: #C5D89D;
+  color: #3e4531;
+  padding: 16px 20px;
+  margin-top: 40px;
+}
+.footer-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+.footer-content p {
+  margin: 0;
+}
+/* MOBILE FOOTER */
+@media (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+    gap: 6px;
+    text-align: center;
+  }
+}
