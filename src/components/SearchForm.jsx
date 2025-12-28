@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { DropdownList, NumberPicker, DatePicker } from "react-widgets";
-import "react-widgets/styles.css"; // necessary for the widgets
-
+import "react-widgets/styles.css";
 
 // ===========================
 // Number Picker Component
@@ -87,24 +86,36 @@ function SearchForm({ onSearch, onReset }) {
             onChange={(v) => setCriteria({ ...criteria, maxBedrooms: v })}
           />
 
+          
           {/* Dates */}
-          <DatePicker
-            placeholder="Added After DD/MM/YYYY"
-            value={criteria.startDate}
-            onChange={(date) => setCriteria({ ...criteria, startDate: date })}
-            valueFormat="DD/MM/YYYY"
-          />
-          <DatePicker
-            placeholder="Added Before DD/MM/YYYY"
-            value={criteria.endDate}
-            onChange={(date) => setCriteria({ ...criteria, endDate: date })}
-            valueFormat="DD/MM/YYYY"
-          />
+            <div className="date-input-wrapper">
+            <input
+              type="date"
+              className="date-input"
+              value={criteria.startDate || ""}
+              onChange={(e) =>
+                setCriteria({ ...criteria, startDate: e.target.value })
+              }
+            />
+          </div>
+
+          <div className="date-input-wrapper">
+            <input
+              type="date"
+              className="date-input"
+              value={criteria.endDate || ""}
+              onChange={(e) =>
+                setCriteria({ ...criteria, endDate: e.target.value })
+              }
+            />
+          </div>
+
 
           {/* Postcode */}
           <input
             type="text"
             placeholder="Postcode area (e.g. BR5)"
+             className="postcode-input"
             value={criteria.postcode}
             onChange={(e) =>
               setCriteria({ ...criteria, postcode: e.target.value })

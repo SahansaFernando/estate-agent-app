@@ -115,29 +115,41 @@
 .rw-number-picker .rw-btn:hover {
   background: #C5D89D;
 }
-.rw-date-picker .rw-btn-select {
-  width: 40px;
-  min-width: 40px;
-  border-left: 1px solid #ccc;
-  background: #3e61a8;
-  position: relative;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.rw-date-picker .rw-btn-select svg {
-  display: none; /* hide default icon */
-}
-
-/* Add calendar icon as text */
-.rw-date-picker .rw-btn-select::after {
-  content: "📅";
+/*date input */
+.date-input {
+  padding: 10px 12px;
+  border: 2px solid #ccc;     
+  border-radius: 6px;
   font-size: 16px;
-  color: white;
-  pointer-events: auto; /* allow click */
+  width: 100%;
+  transition: border 0.2s, box-shadow 0.2s;
+  appearance: none;              
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
+
+/* Focus effect */
+.date-input:focus {
+  border-color: #73b9fe;        
+  box-shadow: 0 0 5px rgba(126, 191, 255, 0.5);  
+  outline: none;               
+}
+/* Postcode input styling */
+.postcode-input {
+  padding: 10px 12px;
+  border: 2px solid #ccc;      
+  border-radius: 6px;
+  font-size: 16px;
+  width: 100%;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.postcode-input:focus {
+  border-color: #73b9fe;      
+  box-shadow: 0 0 5px rgba(126, 191, 255, 0.5);  
+  outline: none;               
+}
+
 
 /* =======================
    CONTENT
@@ -191,8 +203,8 @@ h2 {
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 .add-fav {
-  background: #9CAB84;   /* green background */
-  color: white;          /* white text */
+  background: #9CAB84;   
+  color: white;          
   font-weight: bold;
   padding: 6px 12px;
   border-radius: 6px;
@@ -200,7 +212,8 @@ h2 {
   cursor: pointer;
 }
 .add-fav:hover {
-  background: #f7ecab;   /* darker green on hover */
+  background: #f7ecab;   
+  color: #0c0c0c;
 }
 /* =======================
    FAVOURITES SECTION
@@ -266,22 +279,22 @@ h2 {
 }
 
 .favourites button {
-  composes: fav-btn;
   background: #f9c6c6;
   color: #ff0000;
   padding: 10px 15px;
+  font-weight: bold;
 }
 
 .favourites button:hover {
   background: #e84646;
-  color: #2a1d1d;
+  color: #0c0c0c;
 }
 
 .remove-fav {
-  composes: fav-btn;
   background: #ff8d5c;
   color: white;
   padding: 6px 8px;
+  font-weight: bold;
 }
 
 /* =======================
@@ -312,7 +325,7 @@ h2 {
   border: 2px dashed #C5D89D;
   border-radius: 8px;
   color: #ec4545;
-  font-weight: bold;
+  
 }
 
 
@@ -332,7 +345,7 @@ h2 {
   text-decoration: none;
   font-weight: bold;
   color: #0e1305;
-  background: #c2f8b2;
+  background: #d3e7b3;
   padding: 20px;
   border-radius: 10px;
   
@@ -356,7 +369,7 @@ h2 {
   color: #444;
 }
 /* =======================
-   MAIN IMAGE CARD (2 IMAGES)
+   MAIN IMAGE CARD 
 ======================= */
 .main-image-card {
   display: grid;
@@ -414,39 +427,39 @@ h2 {
   display: flex;
   gap: 10px;
   margin-bottom: 15px;
-  border-bottom: 2px solid #C5D89D; /* optional underline */
+  border-bottom: 2px solid #C5D89D; 
 }
 
 /* Individual tabs */
 .property-tabs .react-tabs__tab {
   padding: 10px 20px;
   cursor: pointer;
-  background: #F1F8E9;  /* light green background */
+  background: #F1F8E9;  
   border-radius: 8px 8px 0 0;
-  color: #3e4531;       /* text color */
+  color: #3e4531;      
   font-weight: bold;
 }
 
 /* Hover effect */
 .property-tabs .react-tabs__tab:hover {
-  background: #C5D89D; /* darker green */
+  background: #C5D89D; 
   color: white;
 }
 
 /* Selected tab */
 .property-tabs .react-tabs__tab--selected {
-  background: #9CAB84;  /* main green */
+  background: #9CAB84;  
   color: white;
-  border-bottom: 2px solid #9CAB84; /* hides default underline for selected */
+  border-bottom: 2px solid #9CAB84; 
 }
 
-/* Optional: Tab panels background */
+/* Optional: Tab panels background 
 .property-tabs .react-tabs__tab-panel {
-  background: #f9fef3;  /* light panel color */
+  background: #f9fef3;  /* light panel color *
   padding: 20px;
   border-radius: 0 8px 8px 8px;
   margin-bottom: 20px;
-}
+}*/
 .property-tabs {
   margin-top: 30px;
   

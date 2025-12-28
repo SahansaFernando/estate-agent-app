@@ -5,7 +5,7 @@ import PropertyCard from "./components/PropertyCard";
 import PropertyDetails from "./pages/PropertyDetails";
 import data from "./data/properties.json";
 import "./App.css";
-import "react-widgets/styles.css"; 
+import "react-widgets/styles.css";
 
 
 
@@ -15,26 +15,15 @@ function App() {
   const [favourites, setFavourites] = useState([]);
   const [draggingProperty, setDraggingProperty] = useState(null);
   const [draggingFavId, setDraggingFavId] = useState(null);
-  //  SEARCH
 const handleSearch = (criteria) => {
   const filtered = properties.filter((property) => {
-    const propertyDate = property.dateAdded.includes("/")
-      ? (() => {
-          const [day, month, year] = property.dateAdded.split("/");
-          return new Date(`${year}-${month}-${day}`);
-        })()
-      : (() => {
-          const [month, day, year] = property.dateAdded.split("-");
-          return new Date(`${year}-${month}-${day}`);
-        })();
+    // Convert property.dateAdded (DD/MM/YYYY) to Date object
+    const [day, month, year] = property.dateAdded.split("/");
+    const propertyDate = new Date(`${year}-${month}-${day}`);
 
-    const startDate = criteria.startDate
-      ? new Date(criteria.startDate.getFullYear(), criteria.startDate.getMonth(), criteria.startDate.getDate())
-      : null;
-
-    const endDate = criteria.endDate
-      ? new Date(criteria.endDate.getFullYear(), criteria.endDate.getMonth(), criteria.endDate.getDate())
-      : null;
+    // Native HTML date input gives YYYY-MM-DD, convert directly
+    const startDate = criteria.startDate ? new Date(criteria.startDate) : null;
+    const endDate = criteria.endDate ? new Date(criteria.endDate) : null;
 
     return (
       (criteria.type === "Any" || property.type === criteria.type) &&
@@ -51,6 +40,7 @@ const handleSearch = (criteria) => {
 
   setResults(filtered);
 };
+
 
 
   const resetSearch = () => {
@@ -162,8 +152,8 @@ const handleSearch = (criteria) => {
                     >
                       Drag here to remove❌
                     </div>
-                    <button className="btn-clear-favourites" onClick={() => setFavourites([])}>
-                       Clear Favourites
+                    <button className="remove-fav" onClick={() => setFavourites([])}>
+                       Clear All Favourites
                     </button>
                   </>
                 )}
