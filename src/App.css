@@ -64,7 +64,7 @@
   border: 1px solid #ccc;
   border-radius: 6px;
   background: #fff;
-  overflow: visible; /* IMPORTANT */
+  overflow: visible;
 }
 .rw-number-picker .rw-input {
   flex: 1;
@@ -103,7 +103,7 @@
   justify-content: center;
   font-size: 11px;
   font-weight: bold;
-  color: #111827;
+  color: #080808;
   pointer-events: none;
 }
 .rw-number-picker .rw-btn:first-child::before {
@@ -118,7 +118,8 @@
 /*date input */
 .date-input {
   padding: 10px 12px;
-  border: 2px solid #ccc;     
+  border: 2px solid #ccc;  
+  color: #808080;   
   border-radius: 6px;
   font-size: 16px;
   width: 100%;
@@ -369,7 +370,7 @@ h2 {
   color: #444;
 }
 /* =======================
-   MAIN IMAGE CARD 
+   MAIN 2 IMAGES CARD 
 ======================= */
 .main-image-card {
   display: grid;
@@ -453,13 +454,6 @@ h2 {
   border-bottom: 2px solid #9CAB84; 
 }
 
-/* Optional: Tab panels background 
-.property-tabs .react-tabs__tab-panel {
-  background: #f9fef3;  /* light panel color *
-  padding: 20px;
-  border-radius: 0 8px 8px 8px;
-  margin-bottom: 20px;
-}*/
 .property-tabs {
   margin-top: 30px;
   
