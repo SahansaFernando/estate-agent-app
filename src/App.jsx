@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
-import SearchForm from "./components/SearchForm";
+import SearchForm from "./components/searchform";
 import PropertyCard from "./components/PropertyCard";
 import PropertyDetails from "./pages/PropertyDetails";
 import data from "./data/properties.json";
