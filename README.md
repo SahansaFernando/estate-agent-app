@@ -1,9 +1,24 @@
-# estate-agent-app
+# Estate Agent React App
 client-side web application that enables a user to search properties by:
 •type (house, flat, any)
 •price (min price, max price)
 •bedrooms (min bedroom, max bedroom)
 •date added (after specified date or between two given dates)
 •postcode area (1st part of the postcode, e.g. BR1, NW1)
-Web link: https://admirable-gumption-ebd31a.netlify.app/
 
+## Live Demo
+https://admirable-gumption-ebd31a.netlify.app/
+
+## GitHub Repository
+https://github.com/your-username/estate-agent-app
+
+## Running Locally
+npm install
+npm run dev
+Open http://localhost:5173
+
+## Features
+- Multi-criteria property search
+- Favourites with drag-and-drop
+- Responsive layout
+- Jest testing
