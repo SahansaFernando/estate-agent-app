@@ -10,7 +10,7 @@ client-side web application that enables a user to search properties by:
 https://admirable-gumption-ebd31a.netlify.app/
 
 ## GitHub Repository
-https://github.com/your-username/estate-agent-app
+https://github.com/SahansaFernando/estate-agent-app
 
 ## Running Locally
 npm install
