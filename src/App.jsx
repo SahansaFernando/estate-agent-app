@@ -5,6 +5,8 @@ import PropertyCard from "./components/PropertyCard";
 import PropertyDetails from "./pages/PropertyDetails";
 import data from "./data/properties.json";
 import "./App.css";
+import "./property.css";
+import "./search.css";
 import "react-widgets/styles.css";
 
 

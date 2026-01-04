@@ -1,0 +1,230 @@
+/* =======================
+   HERO SEARCH
+======================= */
+.hero {
+  background:
+    url("/background.jpg");
+  
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px 100px;
+  text-align: center;
+  overflow: visible; 
+  position: relative; 
+}
+
+.hero h1 {
+  font-size: 46px;
+  font-weight: 700;
+  color: #1f2937;
+  padding-left: 20px;
+  border-left: 6px solid #e76f51;
+  margin-bottom: 8px;
+  font-style: italic;
+}
+.hero h2 {
+  font-size: 20px;
+  color: #4b5563;
+}
+/* ===========================
+   SEARCH BAR LAYOUT
+   =========================== */
+.search-bar {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+.search-card {
+  max-width: 1150px;
+  margin: 40px auto 0;
+  padding: 30px 30px 35px;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+  background: rgba(251, 255, 239, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+/* ===========================
+   NUMBER PICKER  
+   =========================== */
+.rw-number-picker {
+  height: 40px;
+  display: flex;
+  align-items: stretch;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  overflow: visible;
+}
+.rw-number-picker .rw-input {
+  flex: 1;
+  padding: 0 10px;
+  font-size: 14px;
+  border: none;
+}
+/* Button container */
+.rw-number-picker .rw-btn-container {
+  width: 32px;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #ccc;
+  background: #3e61a8;
+}
+/* Buttons */
+.rw-number-picker .rw-btn {
+  flex: 1;
+  min-height: 20px;
+  position: relative;
+  background: #dbecb6;
+  border : none;
+  cursor: pointer;
+}
+/* Hide default svg */
+.rw-number-picker .rw-btn svg {
+  display: none;
+}
+/* ▲ ▼ icons */
+.rw-number-picker .rw-btn:first-child::before,
+.rw-number-picker .rw-btn:last-child::before {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: bold;
+  color: #080808;
+  pointer-events: none;
+}
+.rw-number-picker .rw-btn:first-child::before {
+  content: "▲";
+}
+.rw-number-picker .rw-btn:last-child::before {
+  content: "▼";
+}
+.rw-number-picker .rw-btn:hover {
+  background: #C5D89D;
+}
+/*date input */
+.date-input {
+  padding: 10px 12px;
+  border: 2px solid #ccc;  
+  color: #808080;   
+  border-radius: 6px;
+  font-size: 16px;
+  width: 100%;
+  transition: border 0.2s, box-shadow 0.2s;
+  appearance: none;              
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* Focus effect */
+.date-input:focus {
+  border-color: #73b9fe;        
+  box-shadow: 0 0 5px rgba(126, 191, 255, 0.5);  
+  outline: none;               
+}
+/* Postcode input styling */
+.postcode-input {
+  padding: 10px 12px;
+  border: 2px solid #ccc;      
+  border-radius: 6px;
+  font-size: 16px;
+  width: 100%;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.postcode-input:focus {
+  border-color: #73b9fe;      
+  box-shadow: 0 0 5px rgba(126, 191, 255, 0.5);  
+  outline: none;               
+}
+
+/*Serch and reset buttons*/
+.search-bar .btn-search {
+  background-color: #d3e7b3;
+  color: #070707;
+  font-weight: bolder;
+  font-size: 18px;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-bar .btn-search:hover {
+  background-color: #59d888;
+}
+
+.search-bar .btn-reset {
+  background-color: #FDAB9E;
+  color: #000000;
+  font-weight: bolder;
+  font-size: 18px;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-bar .btn-reset:hover {
+  background-color: #ff3d3d;
+}
+
+
+.search-buttons {
+  grid-column: span 4;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.search-buttons button {
+  min-width: 340px;
+}
+
+
+/* =======================
+   Responsiveness
+======================= */
+@media (max-width: 900px) {
+  /* Search bar layout */
+  .search-bar {
+    grid-template-columns: 1fr;
+    padding: 15px;
+    gap: 10px;
+  }
+
+  .search-bar input,
+  .rw-number-picker,
+  .date-input,
+  .postcode-input {
+    width: 100%;
+  }
+
+  /* Buttons full width and stacked */
+  .search-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .search-buttons button {
+    width: 100%;
+    min-width: unset;
+  }
+
+  /* Property card adjustments */
+  .property-card {
+    flex-direction: column;
+  }
+
+  .property-image {
+    width: 100%;
+    height: 180px;
+  }
+}
