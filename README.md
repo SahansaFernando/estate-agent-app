@@ -7,7 +7,7 @@ client-side web application that enables a user to search properties by:
 •postcode area (1st part of the postcode, e.g. BR1, NW1)
 
 ## Live Demo
-https://estatezen.netlify.app/
+https://sahansafernando.github.io/estate-agent-app/#/
 
 ## GitHub Repository
 https://github.com/SahansaFernando/estate-agent-app
