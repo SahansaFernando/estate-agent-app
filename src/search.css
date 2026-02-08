@@ -156,6 +156,7 @@
   padding: 14px 24px;
   border: none;
   border-radius: 5px;
+  min-height: 44px;
 }
 
 .search-bar .btn-search:hover {
@@ -170,6 +171,7 @@
   padding: 14px 24px;
   border: none;
   border-radius: 5px;
+  min-height: 44px;
 }
 
 .search-bar .btn-reset:hover {
@@ -193,6 +195,7 @@
   border-radius: 5px;
   border: none;
   cursor: pointer;
+  min-height: 44px;
 }
 
 /* =======================
@@ -216,5 +219,8 @@
 
   .search-buttons button {
     max-width: 100%;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 16px;
   }
 }

@@ -89,6 +89,7 @@ h2 {
   color: #ff0000;
   padding: 10px 15px;
   font-weight: bold;
+  min-height: 40px;
 }
 
 .favourites button:hover {
@@ -101,6 +102,7 @@ h2 {
   color: white;
   padding: 6px 8px;
   font-weight: bold;
+  min-height: 36px;
 }
 
 /* =======================
@@ -183,8 +185,9 @@ h2 {
   .remove-fav {
     width: 100%; /* full width on small screens */
     text-align: center;
-    padding: 10px 0;
-    font-size: 14px;
+    padding: 12px 14px;
+    font-size: 15px;
+    min-height: 44px;
   }
 
   /* Drop zones */
