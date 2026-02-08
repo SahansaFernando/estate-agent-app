@@ -4,6 +4,7 @@ import { Tabs, TabList, Tab, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import data from "../data/properties.json";
 import "../App.css";
+import { resolveAssetPath } from "../utils/assetPath";
 
 function PropertyDetails() {
   const { id } = useParams();
@@ -15,7 +16,13 @@ function PropertyDetails() {
 
   if (!property) return <p>Property not found</p>;
 
-  const imageEntries = Object.entries(property.images || {});
+  const imageEntries = Object.entries(property.images || {}).map(
+    ([label, img]) => [label, resolveAssetPath(img)]
+  );
+
+  const primaryImage = resolveAssetPath(property.heroImages?.[0]);
+  const secondaryImage = resolveAssetPath(property.heroImages?.[1]);
+  const floorPlanImage = resolveAssetPath(property.floorPlan);
 
   return (
     <div className="property-page">
@@ -36,13 +43,13 @@ function PropertyDetails() {
       {/* MAIN IMAGE CARD */}
          <div className="main-image-card">
         <img
-            src={property.heroImages[0]}
+            src={primaryImage}
             alt="Main view"
             className="main-image primary"
         />
 
         <img
-            src={property.heroImages[1]}
+            src={secondaryImage}
             alt="Secondary view"
             className="main-image secondary"
         />
@@ -78,7 +85,7 @@ function PropertyDetails() {
 
         <TabPanel>
           <img
-            src={property.floorPlan}
+            src={floorPlanImage}
             alt="Floor plan"
             className="floorplan-image"
           />

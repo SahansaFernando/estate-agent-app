@@ -10,20 +10,20 @@
       "location": "Petts Wood Road, Petts Wood, Orpington BR5",
 
       "heroImages": [
-                "/images/house1/house1.jpg",
-                "/images/house1/house1.2.jpg"
+                "images/house1/house1.jpg",
+                "images/house1/house1.2.jpg"
             ],
 
       "images": {
-        "livingRoom": "/images/house1/house1livingroom.jpg",
-        "bedroom": "/images/house1/house1bedroom.jpg",
-        "kitchen": "/images/house1/house1kitchen.jpg",
-        "entrance": "/images/house1/house1entrance.jpg",
-        "washroom": "/images/house1/house1washroom.jpg",
-        "garden": "/images/house1/house1garden.jpg"
+        "livingRoom": "images/house1/house1livingroom.jpg",
+        "bedroom": "images/house1/house1bedroom.jpg",
+        "kitchen": "images/house1/house1kitchen.jpg",
+        "entrance": "images/house1/house1entrance.jpg",
+        "washroom": "images/house1/house1washroom.jpg",
+        "garden": "images/house1/house1garden.jpg"
       },
 
-      "floorPlan": "/images/house1/house1floorplan.jpg",
+      "floorPlan": "images/house1/house1floorplan.jpg",
       "lat": 51.389,
       "lng": 0.103,
       "dateAdded": "10/12/2025"
@@ -39,20 +39,20 @@
       "location": "Crofton Road Orpington BR6",
 
       "heroImages": [
-                "/images/flat1/flat1.jpeg",
-                "/images/flat1/flat1.2.jpg"
+                "images/flat1/flat1.jpeg",
+                "images/flat1/flat1.2.jpg"
             ],
 
       "images": {
-        "livingRoom": "/images/flat1/flat1livingroom.jpg",
-        "bedroom": "/images/flat1/flat1bedroom.jpg",
-        "kitchen": "/images/flat1/flat1kitchen.jpg",
-        "entrance": "/images/flat1/flat1entrance.jpg",
-        "washroom": "/images/flat1/flat1washroom.jpg",
-        "balcony": "/images/flat1/flat1balcony.jpg"
+        "livingRoom": "images/flat1/flat1livingroom.jpg",
+        "bedroom": "images/flat1/flat1bedroom.jpg",
+        "kitchen": "images/flat1/flat1kitchen.jpg",
+        "entrance": "images/flat1/flat1entrance.jpg",
+        "washroom": "images/flat1/flat1washroom.jpg",
+        "balcony": "images/flat1/flat1balcony.jpg"
       },
 
-      "floorPlan": "/images/flat1/flat1floorplan.jpg",
+      "floorPlan": "images/flat1/flat1floorplan.jpg",
       "lat": 51.373,
       "lng": 0.089,
       "dateAdded": "02/09/2025"
@@ -68,21 +68,21 @@
       "location": "High Street, Bromley BR1",
 
       "heroImages": [
-                "/images/house2/house2.jpg",
-                "/images/house2/house2.2.jpeg"
+                "images/house2/house2.jpg",
+                "images/house2/house2.2.jpeg"
             ],
 
 
       "images": {
-        "livingRoom": "/images/house2/house2livingroom.jpg",
-        "bedroom": "/images/house2/house2bedroom.jpg",
-        "kitchen": "/images/house2/house2kitchen.jpg",
-        "entrance": "/images/house2/house2entrance.jpg",
-        "washroom": "/images/house2/house2washroom.jpg",
-        "garden": "/images/house2/house2garden.jpg"
+        "livingRoom": "images/house2/house2livingroom.jpg",
+        "bedroom": "images/house2/house2bedroom.jpg",
+        "kitchen": "images/house2/house2kitchen.jpg",
+        "entrance": "images/house2/house2entrance.jpg",
+        "washroom": "images/house2/house2washroom.jpg",
+        "garden": "images/house2/house2garden.jpg"
       },
 
-      "floorPlan": "/images/house2/house2floorplan.jpg",
+      "floorPlan": "images/house2/house2floorplan.jpg",
       "lat": 51.406,
       "lng": 0.015,
       "dateAdded": "01/10/2025"
@@ -99,20 +99,20 @@
 
       
       "heroImages": [
-                "/images/flat2/flat2.jpg",
-                "/images/flat2/flat2.2.jpg"
+                "images/flat2/flat2.jpg",
+                "images/flat2/flat2.2.jpg"
             ],
 
       "images": {
-        "livingRoom": "/images/flat2/flat2livingroom.jpg",
-        "bedroom": "/images/flat2/flat2bedroom.jpg",
-        "kitchen": "/images/flat2/flat2kitchen.jpg",
-        "entrance": "/images/flat2/flat2entrance.jpg",
-        "washroom": "/images/flat2/flat2washroom.jpg",
-        "balcony": "/images/flat2/flat2balcony.jpg"
+        "livingRoom": "images/flat2/flat2livingroom.jpg",
+        "bedroom": "images/flat2/flat2bedroom.jpg",
+        "kitchen": "images/flat2/flat2kitchen.jpg",
+        "entrance": "images/flat2/flat2entrance.jpg",
+        "washroom": "images/flat2/flat2washroom.jpg",
+        "balcony": "images/flat2/flat2balcony.jpg"
       },
 
-      "floorPlan": "/images/flat2/flat2floorplan.jpg",
+      "floorPlan": "images/flat2/flat2floorplan.jpg",
       "lat": 51.542,
       "lng": -0.142,
       "dateAdded": "12/12/2025"
@@ -128,21 +128,21 @@
       "location": "Greenwich Park Road, London SE10",
 
       "heroImages": [
-                "/images/house3/house3.jpg",
-                "/images/house3/house3.2.jpg"
+                "images/house3/house3.jpg",
+                "images/house3/house3.2.jpg"
             ],
 
 
       "images": {
-        "livingRoom": "/images/house3/house3livingroom.jpg",
-        "bedroom": "/images/house3/house3bedroom.jpg",
-        "kitchen": "/images/house3/house3kitchen.jpg",
-        "entrance": "/images/house3/house3entrance.jpg",
-        "washroom": "/images/house3/house3washroom.jpg",
-        "garden": "/images/house3/house3garden.jpg"
+        "livingRoom": "images/house3/house3livingroom.jpg",
+        "bedroom": "images/house3/house3bedroom.jpg",
+        "kitchen": "images/house3/house3kitchen.jpg",
+        "entrance": "images/house3/house3entrance.jpg",
+        "washroom": "images/house3/house3washroom.jpg",
+        "garden": "images/house3/house3garden.jpg"
       },
 
-      "floorPlan": "/images/house3/house3floorplan.jpg",
+      "floorPlan": "images/house3/house3floorplan.jpg",
       "lat": 51.477,
       "lng": -0.0005,
       "dateAdded": "06/10/2025"
@@ -158,20 +158,20 @@
       "location": "Old Street, London EC1",
 
       "heroImages": [
-                "/images/flat3/flat3.jpg",
-                "/images/flat3/flat3.2.jpg"
+                "images/flat3/flat3.jpg",
+                "images/flat3/flat3.2.jpg"
             ],
 
       "images": {
-        "livingRoom": "/images/flat3/flat3livingroom.jpg",
-        "bedroom": "/images/flat3/flat3bedroom.jpg",
-        "kitchen": "/images/flat3/flat3kitchen.jpg",
-        "entrance": "/images/flat3/flat3entrance.jpg",
-        "washroom": "/images/flat3/flat3washroom.jpg",
-        "balcony": "/images/flat3/flat3balcony.jpg"
+        "livingRoom": "images/flat3/flat3livingroom.jpg",
+        "bedroom": "images/flat3/flat3bedroom.jpg",
+        "kitchen": "images/flat3/flat3kitchen.jpg",
+        "entrance": "images/flat3/flat3entrance.jpg",
+        "washroom": "images/flat3/flat3washroom.jpg",
+        "balcony": "images/flat3/flat3balcony.jpg"
       },
 
-      "floorPlan": "/images/flat3/flat3floorplan.jpg",
+      "floorPlan": "images/flat3/flat3floorplan.jpg",
       "lat": 51.526,
       "lng": -0.087,
       "dateAdded": "07/13/2025"
@@ -187,21 +187,21 @@
       "location": "Lewisham High Road, London SE13",
 
       "heroImages": [
-                "/images/house4/house4.jpg",
-                "/images/house4/house4.2.jpeg"
+                "images/house4/house4.jpg",
+                "images/house4/house4.2.jpeg"
             ],
 
 
       "images": {
-        "livingRoom": "/images/house4/house4livingroom.jpg",
-        "bedroom": "/images/house4/house4bedroom.jpg",
-        "kitchen": "/images/house4/house4kitchen.jpg",
-        "entrance": "/images/house4/house4entrance.jpg",
-        "washroom": "/images/house4/house4washroom.jpg",
-        "garden": "/images/house4/house4garden.jpg"
+        "livingRoom": "images/house4/house4livingroom.jpg",
+        "bedroom": "images/house4/house4bedroom.jpg",
+        "kitchen": "images/house4/house4kitchen.jpg",
+        "entrance": "images/house4/house4entrance.jpg",
+        "washroom": "images/house4/house4washroom.jpg",
+        "garden": "images/house4/house4garden.jpg"
       },
 
-      "floorPlan": "/images/house4/house4floorplan.jpg",
+      "floorPlan": "images/house4/house4floorplan.jpg",
       "lat": 51.456,
       "lng": -0.014,
       "dateAdded": "04/04/2025"
