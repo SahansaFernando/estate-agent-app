@@ -2,9 +2,8 @@
    HERO SEARCH
 ======================= */
 .hero {
-  background:
-    url("/background.jpg");
-  
+  background-color: #f4efe6;
+  background-image: var(--hero-bg);
   background-size: cover;
   background-position: center;
   padding: 80px 20px 100px;

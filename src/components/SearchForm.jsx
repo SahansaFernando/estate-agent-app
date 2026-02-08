@@ -22,6 +22,8 @@ function NumberWithControls({ value, step, min = 0, placeholder, onChange }) {
 // Main Search Form
 // ===========================
 function SearchForm({ onSearch, onReset }) {
+  const heroBgUrl = `${import.meta.env.BASE_URL}background.jpg`;
+
   const initialState = {
     type: "Any",
     minPrice: null,
@@ -46,7 +48,10 @@ function SearchForm({ onSearch, onReset }) {
   };
 
   return (
-    <section className="hero">
+    <section
+      className="hero"
+      style={{ "--hero-bg": `url(${heroBgUrl})` }}
+    >
       <h1>You dream it, we find it</h1>
       <div className="search-card">
         <h2>Search Properties</h2>

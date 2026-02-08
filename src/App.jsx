@@ -8,6 +8,7 @@ import "./App.css";
 import "./property.css";
 import "./search.css";
 import "react-widgets/styles.css";
+import { resolveAssetPath } from "./utils/assetPath";
 
 
 
@@ -119,7 +120,9 @@ const handleSearch = (criteria) => {
                       onDragStart={() => setDraggingFavId(fav.id)}
                     >
                       <img
-                        src={fav.heroImages?.[0] || fav.picture}
+                        src={resolveAssetPath(
+                          fav.heroImages?.[0] || fav.picture
+                        )}
                         alt={fav.type}
                         className="favourite-image"
                       />

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { resolveAssetPath } from "../utils/assetPath";
 
 function PropertyCard({ property, onFavourite }) {
   return (
@@ -8,7 +9,7 @@ function PropertyCard({ property, onFavourite }) {
       style={{ textDecoration: "none", color: "inherit" }}
     >
       <img
-        src={property.heroImages?.[0] || property.picture}
+        src={resolveAssetPath(property.heroImages?.[0] || property.picture)}
         alt={property.type}
         className="property-image"
       />
