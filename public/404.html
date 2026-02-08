@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting...</title>
+    <script>
+      (function () {
+        var repo = '/estate-agent-app';
+        var pathname = window.location.pathname;
+        var newPath = repo + '/#' + pathname.replace(repo, '');
+        window.location.replace(newPath);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
